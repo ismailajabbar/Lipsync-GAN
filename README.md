@@ -1,4 +1,4 @@
-# Interactly.Video
+# Lipsync - GAN
 
 ## Install Libraries
 ```
@@ -13,7 +13,7 @@ pip install requirements.txt
 
 
 ## Predict
-Testing file are placed inside the "test_input"7 folder.
+Testing file are placed inside the "test_input" folder.
 ```
 python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face "test_input/Kohli_input_video.mp4" --audio "Lipsync/Kohli-subhramanyam.mp3" --pads 0 20 0 0    
 python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face "test_input/Kohli_input_video.mp4" --audio "Lipsync/Kohli-subhramanyam.mp3" --pads 0 20 0 0
