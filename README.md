@@ -1,9 +1,15 @@
 # Lipsync - GAN
 
+## Readme
+Original readme file has been renamed to "Original_README.md"
+
 ## Install Libraries
+Use command below to install necessary requirements (tested locally).
 ```
 pip install requirements.txt
 ```
+
+Original requirements.txt file have been renamed to "Original_requirements.txt"
 
 ## Prepare Weights
 - Face detection [pre-trained model](https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth) should be downloaded, moved, and renamed to `face_detection/detection/sfd/s3fd.pth`. Alternative [link](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/prajwal_k_research_iiit_ac_in/EZsy6qWuivtDnANIG73iHjIBjMSoojcIV0NULXV-yiuiIg?e=qTasa8) if the above does not work.
