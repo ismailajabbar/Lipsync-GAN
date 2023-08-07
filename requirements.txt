@@ -1,5 +1,5 @@
-librosa 0.9.1
-numba==0.57.1
+librosa==0.9.1
+numba==0.51.2
 numpy==1.24.3
 opencv-python==4.7.0.72
 torch==2.0.0
